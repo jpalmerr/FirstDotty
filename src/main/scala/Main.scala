@@ -8,6 +8,7 @@ object Main {
     runExample("Union Types")(UnionTypes.test)
     runExample("Enums")(Enums.test)
     runExample("Type Lambdas")(TypeLambda.test)
+    runExample("Dependent Functions")(DependentFunctionTypes.test)
   }
 
   def msg = "I was compiled by dotty :)"
