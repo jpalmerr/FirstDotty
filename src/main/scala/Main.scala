@@ -1,3 +1,5 @@
+import extraReading.opaqueTypeAliases.LogarithmExample
+
 object Main {
 
   def main(args: Array[String]): Unit = {
@@ -9,6 +11,13 @@ object Main {
     runExample("Enums")(Enums.test)
     runExample("Type Lambdas")(TypeLambda.test)
     runExample("Dependent Functions")(DependentFunctionTypes.test)
+    runExample("Extension Method")(ExtensionMethod.test)
+    
+    
+    
+    
+    println("Extra reading")
+    runExample("OpaqueTypes")(LogarithmExample.test)
   }
 
   def msg = "I was compiled by dotty :)"

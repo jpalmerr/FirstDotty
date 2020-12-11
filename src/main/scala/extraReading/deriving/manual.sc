@@ -1,4 +1,4 @@
-import deriving._
+import extraReading.deriving._
 
 val intPrettyStringX =
   new PrettyString[Int] {

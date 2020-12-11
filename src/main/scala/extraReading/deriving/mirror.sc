@@ -8,7 +8,7 @@
  */
 
 /**
- * MirroredType - is just the type we are deriving from, so our case class User
+ * MirroredType - is just the type we are extraReading.deriving from, so our case class User
  * MirroredLabel - type-level representation of the label of the type we are mirroring, so the literal type "User"
  * MirroredElemLabels - A Tuple that contains the field names at type-level (literal types again!), so of type ("name", "age")
  * MirroredElemTypes - A tuple of all elements that User can be broken into: (String, Int) (for fields name and age)
@@ -28,7 +28,7 @@ trait Sum extends Mirror { self =>
 
  */
 
-import deriving._
+import extraReading.deriving._
 
 import scala.deriving.Mirror
 
