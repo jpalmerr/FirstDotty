@@ -15,3 +15,4 @@ For more information on the sbt-dotty plugin, see the
 
 [scala zone course](https://scala.zone/courses/scala/beginner)
 [dotty docs](https://dotty.epfl.ch/docs/usage/dottydoc.html)
+[New syntax summary](https://dotty.epfl.ch/docs/reference/syntax.html)
