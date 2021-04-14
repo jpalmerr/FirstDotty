@@ -4,7 +4,7 @@ lazy val root = project
   .in(file("."))
   .settings(
     name := "dotty-simple",
-    version := "3.0.0-M2",
+    version := "3.0.0-RC2",
 
     scalaVersion := dottyVersion,
 

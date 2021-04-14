@@ -1,5 +1,13 @@
 import extraReading.deriving._
 
+/**
+ * Given Instances are a new way to define basic terms that can be synthesized.
+ * They replace implicit definitions.
+ *
+ * Using Clauses are a new syntax for implicit parameters and their arguments.
+ * It unambiguously aligns parameters and arguments, solving a number of language warts.
+ */
+
 val intPrettyStringX =
   new PrettyString[Int] {
     def prettyString(a: Int): String  = a.toString
