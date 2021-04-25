@@ -9,6 +9,7 @@ object Main {
     
     runExample("Intersection Types")(IntersectionTypes.test)
     runExample("Union Types")(UnionTypes.test)
+    runExample("Match Types")(MatchTypes.test)
     runExample("Enums")(Enums.test)
     runExample("Type Lambdas")(TypeLambda.test)
     runExample("Dependent Functions")(DependentFunctionTypes.test)

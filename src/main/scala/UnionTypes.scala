@@ -1,4 +1,6 @@
 object UnionTypes {
+  
+  // pretty cool, will remove need for heirachy adts
 
   case class UserName(name: String)
   case class UserNumber(number: Int)

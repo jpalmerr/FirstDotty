@@ -26,10 +26,9 @@ object WhatsNew {
   }
 
   def optionalBraces(thing: Things) = {
-    thing match {
+    thing match 
       case _: extraReading.newInScala.WhatsNew.Thing1.type => "no braces round match"
       case _: extraReading.newInScala.WhatsNew.Thing2.type => ":)"
-    }
   }
 
   def numberMatch(x: Int) = {
